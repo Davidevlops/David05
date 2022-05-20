@@ -1,0 +1,37 @@
+.footer {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer ul {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer ul li {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.footer ul li a {
+  color: #ffffffff;
+  font-size: 1.2rem;
+}
+.developer {
+  display: flex;
+  margin: 0 1rem;
+  text-transform: capitalize;
+  color: antiquewhite;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  bottom: 0;
+  position: relative;
+  font-size: 15px;
+}
